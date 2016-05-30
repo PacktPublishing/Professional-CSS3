@@ -1,0 +1,30 @@
+.article > img {
+    /* Image in top */
+}
+
+.article > h1 {
+    /* Post header */
+}
+
+.article > p {
+    /* Post excerpt */
+}
+
+.article > a {
+    /* Read more button */
+}
+
+
+.alert {
+    width: 300px;
+    height: 300px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.alert {
+    background: red;
+    color: black;
+}

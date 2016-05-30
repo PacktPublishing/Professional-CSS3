@@ -1,0 +1,40 @@
+=displayFlex
+  display: -webkit-box
+  display: -moz-box
+  display: -ms-flexbox
+  display: -webkit-flex
+  display: flex
+
+=flexOrder($number)
+  -webkit-box-ordinal-group: $number
+  -moz-box-ordinal-group: $number
+  -ms-flex-order: $number
+  -webkit-order: $number
+  order: $number
+
+.container > *
+  padding: 20px
+
+.first
+  background: lightblue
+
+.second
+  background: lightcyan
+
+
+@media screen and (max-width: 600px)
+
+  .container
+    +displayFlex
+    -webkit-flex-flow: row wrap
+    flex-flow: row wrap
+
+    & > *
+      width: 100%
+
+    .first
+      +flexOrder(2)
+
+    .second
+      +flexOrder(1)
+

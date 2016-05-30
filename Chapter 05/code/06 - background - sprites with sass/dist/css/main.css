@@ -1,0 +1,26 @@
+.element-circle-blue {
+    background-image: url('../images/newsprite-s31a73c8e82.png');
+    background-position: 0 -180px;
+    height: 90px;
+    width: 90px
+}
+
+.element-circle-red {
+    background-image: url('../images/newsprite-s31a73c8e82.png');
+    background-position: -90px -90px;
+    height: 90px;
+    width: 90px
+}
+
+.element-circle-white {
+    background-image: url('../images/newsprite-s31a73c8e82.png');
+    background-position: -180px 0;
+    height: 90px;
+    width: 90px
+}
+
+.element-circle-blue, .element-circle-red, .element-circle-white {
+    float: left
+}
+
+/*# sourceMappingURL=main.css.map */

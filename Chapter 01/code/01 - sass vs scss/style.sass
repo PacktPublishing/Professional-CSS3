@@ -1,0 +1,18 @@
+a
+  color: #000
+
+  &:hover
+    color: #f00
+
+
+
+=animateAll($time)
+  -webkit-transition: all $time ease-in-out
+  -moz-transition: all $time ease-in-out
+  -o-transition: all $time ease-in-out
+  transition: all $time ease-in-out
+
+.animatedElement
+  +animateAll(5s)
+
+

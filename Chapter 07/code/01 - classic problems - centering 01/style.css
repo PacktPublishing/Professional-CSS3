@@ -1,0 +1,17 @@
+.container {
+  background: red;
+  padding: 20px; }
+
+.element {
+  background: white; }
+
+/* Changed */
+.container {
+  text-align: center;
+  background: red;
+  padding: 20px; }
+
+.element {
+  background: white; }
+
+/*# sourceMappingURL=style.css.map */

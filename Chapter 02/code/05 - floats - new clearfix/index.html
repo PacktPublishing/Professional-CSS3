@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Sample 01</title>
+</head>
+<body>
+
+<div class="container clearfix">
+    <div class="float">
+        … content ...
+    </div>
+    <div class="float">
+        … content ...
+    </div>
+</div>
+
+<style>
+    .clearfix:after {
+        content: " ";
+        visibility: hidden;
+        display: block;
+        height: 0;
+        clear: both;
+    }
+</style>
+</body>
+</html>

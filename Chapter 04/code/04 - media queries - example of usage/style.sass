@@ -1,0 +1,60 @@
+@mixin mq($display, $breakpoint)
+  @media #{$display} and #{$breakpoint}
+    @content
+
+$mq_small_only: "(max-width: 640px)"
+$mq_medium_only: "(min-width: 641px) and (max-width: 1024px)"
+$mq_small_and_medium: "(max-width: 1024px)"
+
+=clearfix
+  &:after
+    content: " "
+    visibility: hidden
+    display: block
+    height: 0
+    clear: both
+
+body
+  padding: 0
+  margin: 0
+
+.main-navigation
+  ul
+    +clearfix /* This will prevent problems of cleared float */
+    list-style: none
+    padding: 0
+    background: greenyellow
+    border:
+      bottom: 1px solid darkgreen
+
+
+  li
+    float: left
+    display: block
+
+  a
+    padding: 10px
+    width: 100%
+    display: block
+    background: greenyellow
+    text-decoration: none
+    color: darkgreen
+
+    &:hover
+      background: darkgreen
+      color: greenyellow
+
+
++mq("screen", $mq_small_and_medium)
+  .main-navigation
+    ul
+      list-style: none
+      border: none
+
+    li
+      float: none
+      width: 100%
+
+    a
+      border:
+        bottom: 1px solid darkgreen

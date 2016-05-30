@@ -1,0 +1,41 @@
+a {
+    display: inline-block;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 10px 40px 10px 10px;
+    position: relative;
+    text-decoration: none;
+    color: #000;
+}
+
+a:after {
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    margin-top: -5px;
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 5px 0 5px 10px;
+    border-color: transparent transparent transparent #000;
+}
+
+p:first-letter {
+    color: orange;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+p:first-line {
+    color: pink;
+}
+
+::-moz-selection,
+::selection {
+    background: red;
+    color: white;
+}
+
+/*# sourceMappingURL=style.css.map */

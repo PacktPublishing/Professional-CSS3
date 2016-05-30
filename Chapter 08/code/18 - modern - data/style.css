@@ -1,0 +1,19 @@
+li, a {
+    display: inline-block;
+    text-align: center;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+.bold_list_fix a::after {
+    display: block;
+    content: attr(data-alt);
+    font-weight: bold;
+    height: 1px;
+    color: transparent;
+    overflow: hidden;
+}
+
+/*# sourceMappingURL=style.css.map */

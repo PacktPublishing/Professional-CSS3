@@ -1,0 +1,30 @@
+//@import "compass/utilities/sprites"
+//
+//@import "newsprite/*.png"
+//@include all-newsprite-sprites(true)
+
+
+@import "compass/utilities/sprites"
+
+$circles: sprite-map("newsprite/*.png", $spacing: 2px, $layout: diagonal)
+
+.element-circle-blue
+  background-image: sprite-url($circles)
+  background-position: sprite-position($circles, circle-blue)
+  @include sprite-dimensions($circles, circle-blue)
+
+.element-circle-red
+  background-image: sprite-url($circles)
+  background-position: sprite-position($circles, circle-red)
+  @include sprite-dimensions($circles, circle-red)
+
+.element-circle-white
+  background-image: sprite-url($circles)
+  background-position: sprite-position($circles, circle-white)
+  @include sprite-dimensions($circles, circle-white)
+
+
+.element-circle-blue,
+.element-circle-red,
+.element-circle-white
+  float: left

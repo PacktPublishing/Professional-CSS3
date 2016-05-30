@@ -1,0 +1,9 @@
+.container {
+  width: 1000px;
+  height: 500px;
+  border: 3px solid red;
+  background-image: url(image.jpg);
+  background-repeat: repeat;
+  background-size: 30px 50px; }
+
+/*# sourceMappingURL=style.css.map */

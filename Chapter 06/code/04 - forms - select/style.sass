@@ -1,0 +1,28 @@
+=triangleBottom($width, $height, $color)
+  width: 0
+  height: 0
+  border-style: solid
+  border-width: $height $width/2 0 $width/2
+  border-color: $color transparent transparent transparent
+
+.selectWrapper
+  width: 300px
+  border: 2px solid green
+  overflow: hidden
+  position: relative
+
+  &:after
+    content: ''
+    position: absolute
+    +triangleBottom(10px, 6px, red)
+    right: 5px
+    margin-top: -3px
+    top: 50%
+
+select
+  background: #fff
+  color: black
+  font:
+    size: 14px
+  border: none
+  width: 105%

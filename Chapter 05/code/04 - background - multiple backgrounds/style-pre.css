@@ -1,0 +1,36 @@
+.container {
+    width: 1000px;
+    height: 500px;
+    border: 3px solid red;
+    background-image:
+            url(image.jpg), /* URL of image #1 */
+            url(image.jpg), /* URL of image #2 */
+            url(image.jpg), /* URL of image #3 */
+            url(image.jpg), /* URL of image #4 */
+            url(image.jpg), /* URL of image #5 */
+            url(image.jpg), /* URL of image #6 */
+            url(image.jpg), /* URL of image #7 */
+            url(image.jpg), /* URL of image #8 */
+            url(image.jpg); /* URL of image #9 */
+    background-repeat: no-repeat;
+    background-position:
+            left top, /* position of image #1 */
+            center top, /* position of image #2 */
+            right top, /* position of image # 3*/
+            left center, /* position of image #4 */
+            center center, /* position of image #5 */
+            right center, /* position of image #6 */
+            bottom left, /* position of image #7 */
+            bottom center, /* position of image #8 */
+            bottom right; /* position of image #1 */
+    background-size:
+            50px auto, /* size of image #1 */
+            auto auto, /* size of image #2 */
+            auto auto, /* size of image #3 */
+            auto auto, /* size of image #4 */
+            200px auto, /* size of image #5 */
+            auto auto, /* size of image #6 */
+            auto auto, /* size of image #7 */
+            auto auto, /* size of image #8 */
+            50px auto; /* size of image #9 */
+}

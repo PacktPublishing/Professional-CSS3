@@ -1,0 +1,96 @@
+table {
+    border-collapse: collapse;
+}
+
+table td, table th {
+    border: 1px solid black;
+}
+
+div[class^="transform_"] {
+    width: 100px;
+    height: 100px;
+    background: lightblue;
+    line-height: 100px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 10px;
+    display: inline-block;
+}
+
+td {
+    text-align: center;
+    vertical-align: middle;
+    width: 150px;
+    height: 150px;
+}
+
+.transform_ {
+    /* Rotate */
+    /* Skew */
+    /* Scale */
+    /* Translate */
+    /* Multiple */
+}
+
+.transform_rotate {
+    transform: rotate(25deg);
+}
+
+.transform_rotatex {
+    transform: rotateX(25deg);
+}
+
+.transform_rotatey {
+    transform: rotateY(25deg);
+}
+
+.transform_rotatez {
+    transform: rotateZ(25deg);
+}
+
+.transform_skew {
+    transform: skew(10deg, 10deg);
+}
+
+.transform_skewx {
+    transform: skewX(10deg);
+}
+
+.transform_skewy {
+    transform: skewY(10deg);
+}
+
+.transform_scalex {
+    transform: scaleX(1.2);
+}
+
+.transform_scale {
+    transform: scale(1.2);
+}
+
+.transform_scaley {
+    transform: scaleY(1.2);
+}
+
+.transform_translate {
+    transform: translate(10px, 10px);
+}
+
+.transform_translatex {
+    transform: translate(10%);
+}
+
+.transform_translatey {
+    transform: translate(10%);
+}
+
+.transform_translatez {
+    transform: translate(10%);
+}
+
+.transform_multiple01 {
+    transform: rotateX(25deg) translate(10px, 10px) skewX(10deg);
+}
+
+/*# sourceMappingURL=style.css.map */

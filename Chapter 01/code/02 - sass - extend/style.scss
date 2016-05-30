@@ -1,0 +1,11 @@
+.font-small {
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.font-small-red {
+  @extend .font-small;
+  color: red;
+}
+

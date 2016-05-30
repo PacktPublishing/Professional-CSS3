@@ -1,0 +1,43 @@
+.container {
+    width: 600px;
+    border: 1px solid #000;
+}
+
+.rollin {
+    width: 100px;
+    height: 100px;
+    background: #000;
+    animation-duration: 1s;
+    animation-name: roll_in;
+    animation-iteration-count: 1;
+    animation-delay: 1s;
+    animation-fill-mode: backwards;
+}
+
+@keyframes roll_in {
+    from {
+        margin-left: 100%;
+        opacity: 0.3;
+    }
+    to {
+        margin-left: 0%;
+        opacity: 1;
+    }
+}
+
+.animation_hover {
+    display: inline-block;
+    padding: 20px;
+    background: #d3d3d3;
+    text-decoration: none;
+    color: black;
+    transition-duration: 0.5s;
+    transition-property: all;
+}
+
+.animation_hover:hover {
+    background: blue;
+    color: white;
+}
+
+/*# sourceMappingURL=style.css.map */

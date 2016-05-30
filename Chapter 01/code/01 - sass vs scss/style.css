@@ -1,0 +1,12 @@
+a {
+  color: #000; }
+  a:hover {
+    color: #f00; }
+
+.animatedElement {
+  -webkit-transition: all 5s ease-in-out;
+  -moz-transition: all 5s ease-in-out;
+  -o-transition: all 5s ease-in-out;
+  transition: all 5s ease-in-out; }
+
+/*# sourceMappingURL=style.css.map */

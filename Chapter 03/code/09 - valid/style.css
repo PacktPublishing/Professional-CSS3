@@ -1,0 +1,30 @@
+.simple_validation {
+    padding: 10px;
+    width: 400px;
+    box-sizing: border-box;
+}
+
+.simple_validation:valid {
+    background: lightgreen;
+}
+
+.simple_validation:invalid {
+    background: lightcoral;
+}
+
+.simple_validation input {
+    display: block;
+    margin: 10px 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.simple_validation input:valid {
+    border: 3px solid green;
+}
+
+.simple_validation input:invalid {
+    border: 3px solid red;
+}
+
+/*# sourceMappingURL=style.css.map */

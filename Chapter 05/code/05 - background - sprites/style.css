@@ -1,0 +1,19 @@
+.image3 {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-image: url(image.jpg);
+    background-repeat: no-repeat;
+    background-position: -200px 0;
+}
+
+.image6 {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-image: url(image.jpg);
+    background-repeat: no-repeat;
+    background-position: -200px -100px;
+}
+
+/*# sourceMappingURL=style.css.map */

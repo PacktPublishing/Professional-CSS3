@@ -1,0 +1,77 @@
+table
+  border-collapse: collapse
+
+  td, th
+    border: 1px solid black
+
+
+div[class^="transform_"]
+  width: 100px
+  height: 100px
+  background: lightblue
+  line-height: 100px
+  text:
+    align: center
+    transform: uppercase
+  font:
+    weight: bold
+    size: 10px
+  display: inline-block
+
+td
+  text-align: center
+  vertical-align: middle
+  width: 150px
+  height: 150px
+
+.transform_
+  /* Rotate */
+  &rotate
+    transform: rotate(25deg)
+
+  &rotatex
+    transform: rotateX(25deg)
+
+  &rotatey
+    transform: rotateY(25deg)
+
+  &rotatez
+    transform: rotateZ(25deg)
+
+  /* Skew */
+  &skew
+    transform: skew(10deg, 10deg)
+
+  &skewx
+    transform: skewX(10deg)
+
+  &skewy
+    transform: skewY(10deg)
+
+  /* Scale */
+  &scalex
+    transform: scaleX(1.2)
+
+  &scale
+    transform: scale(1.2)
+
+  &scaley
+    transform: scaleY(1.2)
+
+  /* Translate */
+  &translate
+    transform: translate(10px, 10px)
+
+  &translatex
+    transform: translate(10%)
+
+  &translatey
+    transform: translate(10%)
+
+  &translatez
+    transform: translate(10%)
+
+  /* Multiple */
+  &multiple01
+    transform: rotateX(25deg) translate(10px, 10px) skewX(10deg)
+

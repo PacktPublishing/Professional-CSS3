@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box; }
+
+.row:after {
+  content: " ";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both; }
+
+.column_1of2 {
+  background: orange;
+  width: 50%;
+  float: left; }
+  .column_1of2:nth-child(2n) {
+    background: red; }
+
+.column_1of3 {
+  background: orange;
+  width: 33.33333%;
+  float: left; }
+  .column_1of3:nth-child(2n) {
+    background: red; }
+
+.column_1of4 {
+  background: orange;
+  width: 25%;
+  float: left; }
+  .column_1of4:nth-child(2n) {
+    background: red; }
+
+/*# sourceMappingURL=style.css.map */

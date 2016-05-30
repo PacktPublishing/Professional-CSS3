@@ -1,0 +1,52 @@
+=displayFlex
+  display: -webkit-box
+  display: -moz-box
+  display: -ms-flexbox
+  display: -webkit-flex
+  display: flex
+
+=flexOrder($number)
+  -webkit-box-ordinal-group: $number
+  -moz-box-ordinal-group: $number
+  -ms-flex-order: $number
+  -webkit-order: $number
+  order: $number
+
+
+.flexContainer
+  height: 600px
+  width: 900px
+  +displayFlex
+  flex-wrap: wrap
+  background: red
+
+.blue
+  background: blue
+
+.green
+  background: green
+
+.yellow
+  background: yellow
+
+.h100px
+  height: 100px
+  font-size: 30px
+  margin-top: 20px
+
+.h200px
+  height: 200px
+  font-size: 20px
+
+.h300px
+  height: 300px
+  font-size: 8px
+
+
+.w100px
+  width: 100px
+
+.flexElement
+  width: 300px
+
+

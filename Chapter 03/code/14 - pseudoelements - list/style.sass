@@ -1,0 +1,44 @@
+=triangleRight($width, $height, $color)
+  width: 0
+  height: 0
+  border-style: solid
+  border-width: $height/2 0 $height/2 $width
+  border-color: transparent transparent transparent $color
+
+
+a
+  display: inline-block
+  border: 1px solid #000
+    radius: 5px
+  padding: 10px 40px 10px 10px
+  position: relative
+  text-decoration: none
+  color: #000
+
+  &:after
+    display: block
+    position: absolute
+    right: 10px
+    top: 50%
+    margin-top: -5px
+    content: ''
+    +triangleRight(10px, 10px, #000)
+
+
+
+p
+  &:first-letter
+    color: orange
+    font:
+      weight: bold
+      size: 20px
+
+  &:first-line
+    color: pink
+
+
+::-moz-selection,
+::selection
+  background: red
+  color: white
+

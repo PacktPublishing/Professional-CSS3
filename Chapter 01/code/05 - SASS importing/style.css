@@ -1,0 +1,48 @@
+body {
+    font-size: 12px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Arial;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+h6 {
+    font-size: 16px;
+}
+
+.grid-1of2 {
+    float: left;
+    width: 50%;
+}
+
+.grid-1of4 {
+    float: left;
+    width: 25%;
+}
+
+.grid-1of5 {
+    float: left;
+    width: 2%;
+}
+
+/*# sourceMappingURL=style.css.map */

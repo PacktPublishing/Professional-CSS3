@@ -1,0 +1,11 @@
+ul li:before {
+    content: "My name is ";
+    color: #f00;
+}
+
+ul li:after {
+    content: ". I'm Front End Developer";
+    color: #f00;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,37 @@
+*
+  box-sizing: border-box
+
+=clearfix
+  &:after
+    content: " "
+    visibility: hidden
+    display: block
+    height: 0
+    clear: both
+
+.row
+  +clearfix
+
+.column_1of2
+  background: orange
+  width: 50%
+  float: left
+
+  &:nth-child(2n)
+    background: red
+
+.column_1of3
+  background: orange
+  width: (100% / 3)
+  float: left
+
+  &:nth-child(2n)
+    background: red
+
+.column_1of4
+  background: orange
+  width: 25%
+  float: left
+
+  &:nth-child(2n)
+    background: red

@@ -1,0 +1,11 @@
+a {
+    color: #000;
+    background: #fff;
+}
+
+a:hover {
+    color: #fff;
+    background: #000;
+}
+
+/*# sourceMappingURL=style.css.map */

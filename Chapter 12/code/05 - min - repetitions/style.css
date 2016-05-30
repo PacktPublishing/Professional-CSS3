@@ -1,0 +1,39 @@
+section .button {
+    padding: 5px 10px; /* Repeated padding */
+    font-size: 12px; /* Repeated font size */
+    color: white; /* Repeated color */
+    background: black;
+}
+
+section .buttonBlue {
+    padding: 5px 10px; /* Repeated padding */
+    font-size: 12px; /* Repeated font size */
+    color: white; /* Repeated color */
+    background: blue;
+}
+
+section .buttonGreen {
+    padding: 5px 10px; /* Repeated padding */
+    font-size: 12px; /* Repeated font size */
+    color: white; /* Repeated color */
+    background: green;
+}
+
+
+
+/* Changed structure */
+
+section .button {
+    padding: 5px 10px;
+    font-size: 12px;
+    color: white;
+    background: black;
+}
+
+section button.button_blue {
+    background: blue;
+}
+
+section button.button_green {
+    background: green;
+}

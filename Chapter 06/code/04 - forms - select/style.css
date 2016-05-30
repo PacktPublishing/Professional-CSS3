@@ -1,0 +1,29 @@
+.selectWrapper {
+    width: 300px;
+    border: 2px solid green;
+    overflow: hidden;
+    position: relative;
+}
+
+.selectWrapper:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 6px 5px 0 5px;
+    border-color: red transparent transparent transparent;
+    right: 5px;
+    margin-top: -3px;
+    top: 50%;
+}
+
+select {
+    background: #fff;
+    color: black;
+    font-size: 14px;
+    border: none;
+    width: 105%;
+}
+
+/*# sourceMappingURL=style.css.map */

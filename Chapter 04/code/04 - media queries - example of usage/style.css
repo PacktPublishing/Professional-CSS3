@@ -1,0 +1,56 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.main-navigation ul {
+    list-style: none;
+    padding: 0;
+    background: greenyellow;
+    border-bottom: 1px solid darkgreen;
+}
+
+.main-navigation ul:after {
+    content: " ";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+.main-navigation li {
+    float: left;
+    display: block;
+}
+
+.main-navigation a {
+    padding: 10px;
+    width: 100%;
+    display: block;
+    background: greenyellow;
+    text-decoration: none;
+    color: darkgreen;
+}
+
+.main-navigation a:hover {
+    background: darkgreen;
+    color: greenyellow;
+}
+
+@media screen and (max-width: 1024px) {
+    .main-navigation ul {
+        list-style: none;
+        border: none;
+    }
+
+    .main-navigation li {
+        float: none;
+        width: 100%;
+    }
+
+    .main-navigation a {
+        border-bottom: 1px solid darkgreen;
+    }
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,39 @@
+=displayFlex
+  display: -webkit-box
+  display: -moz-box
+  display: -ms-flexbox
+  display: -webkit-flex
+  display: flex
+
+=flexOrder($number)
+  -webkit-box-ordinal-group: $number
+  -moz-box-ordinal-group: $number
+  -ms-flex-order: $number
+  -webkit-order: $number
+  order: $number
+
+.flexContainer
+  +displayFlex
+  -webkit-flex-flow: row wrap
+  flex-flow: row wrap
+
+  & > *
+    padding: 10px
+    flex: 1 100%
+
+  header
+    background: red
+
+  footer
+    background: lightblue
+
+  main
+    background: yellow
+    flex: 3 1 auto
+
+  aside
+    background: green
+    flex:  1 0 auto
+
+
+

@@ -1,0 +1,39 @@
+.container
+  width: 600px
+  border: 1px solid #000
+
+.rollin
+  width: 100px
+  height: 100px
+  background: #000
+
+  animation:
+    duration: 1s
+    name: roll_in
+    iteration-count: 1
+    delay: 1s
+    fill-mode: backwards
+
+@keyframes roll_in
+  from
+    margin-left: 100%
+    opacity: .3
+
+  to
+    margin-left: 0%
+    opacity: 1
+
+
+.animation_hover
+  display: inline-block
+  padding: 20px
+  background: #d3d3d3
+  text-decoration: none
+  color: black
+  transition:
+    duration: .5s
+    property: all
+
+  &:hover
+    background: blue
+    color: white

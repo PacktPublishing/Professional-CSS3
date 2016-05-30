@@ -1,0 +1,47 @@
+article .h1 {
+    font-family: Arial; /* Repeated font family */
+    padding: 10px 0 15px 0; /* Repeated padding */
+    font-size: 36px;
+    line-height: 1.5; /* Repeated line height */
+    color: black; /* Repeated color */
+}
+
+article .h2 {
+    font-family: Arial; /* Repeated font family */
+    padding: 10px 0 15px 0; /* Repeated padding */
+    font-size: 30px;
+    line-height: 1.5; /* Repeated line height */
+    color: black; /* Repeated color */
+}
+
+article .h3 {
+    font-family: Tahoma; /* Oryginal font family */
+    padding: 10px 0 15px 0; /* Repeated padding */
+    font-size: 24px;
+    line-height: 1.5; /* Repeated line height */
+    color: black; /* Repeated color */
+}
+
+
+/* Changed */
+article .h1,
+article .h2,
+article .h3 {
+    padding: 10px 0 15px 0;
+    line-height: 1.5;
+    color: black;
+    font-family: Arial;
+}
+
+article .h1 {
+    font-size: 36px;
+}
+
+article .h2 {
+    font-size: 30px;
+}
+
+article .h3 {
+    font-size: 24px;
+    font-family: Tahoma;
+}

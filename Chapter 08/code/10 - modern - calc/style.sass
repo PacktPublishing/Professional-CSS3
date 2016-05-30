@@ -1,0 +1,22 @@
+=clearfix
+  &:after
+    content: ""
+    display: table
+    clear: both
+
+.container
+  +clearfix
+
+  & > *
+    float: left
+    height: 200px
+    padding: 10px
+    box-sizing: border-box
+
+.first
+  width: 100px
+  background: red
+
+.second
+  width: calc(100% - 100px)
+  background: blue

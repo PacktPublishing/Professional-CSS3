@@ -1,0 +1,30 @@
+=button($bgc, $fc)
+  display: inline-block
+  background: $bgc
+  color: $fc
+
+
+=roundedButton($bgc, $fc, $bc, $br)
+  background: $bgc
+  color: $fc
+  border-color: $bc
+  border-radius: $br
+
+.button
+  padding: 5px 10px
+  +button(#ff0000, #fff)
+
+.roundedButton
+  +roundedButton(black, white, red, 5px)
+
+.button
+  +button(#ff0000, #fff)
+
+  .small
+    padding: 5px 10px
+
+  .medium
+    padding: 10px 20px
+
+  .large
+    padding: 15px 30px

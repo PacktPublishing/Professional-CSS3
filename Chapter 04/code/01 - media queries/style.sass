@@ -1,0 +1,44 @@
+.mobile_only,
+.tablet_only,
+.desktop_only,
+.mobile_and_tablet,
+.tablet_and_desktop
+  display: none
+
+
+/* Mobile only */
+@media screen and (max-width: 400px)
+  body
+    background: red
+
+  .mobile_only
+    display: block
+
+/* Mobile and tablet */
+@media screen and (max-width: 700px)
+  .mobile_and_tablet
+    display: block
+
+/* Tablet only */
+@media screen and (min-width: 401px) and (max-width: 700px)
+  body
+    background: blue
+
+  .tablet_only
+    display: block
+
+/* Tablet and desktop */
+@media screen and (min-width: 401px)
+  .tablet_and_desktop
+    display: block
+
+/* Desktop only */
+@media screen and (min-width: 701px)
+  body
+    background: green
+
+  .desktop_only
+    display: block
+
+
+

@@ -1,0 +1,15 @@
+.relative {
+  width: 200px;
+  height: 200px;
+  background: orange;
+  position: relative; }
+
+.absolute {
+  width: 40px;
+  height: 40px;
+  background: red;
+  position: absolute;
+  left: 100px;
+  top: 30px; }
+
+/*# sourceMappingURL=style.css.map */

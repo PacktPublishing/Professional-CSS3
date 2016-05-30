@@ -1,0 +1,51 @@
+/* Aproach 1 */
+@media (max-width: 768px) {
+    .element {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .element {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .element {
+        font-size: 16px;
+    }
+}
+
+/* Aproach 2 */
+@media only screen {
+    .element {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .element {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (min-width: 641px) {
+    .element {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+    .element {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    .element {
+        font-size: 16px;
+    }
+}
+
+/*# sourceMappingURL=style.css.map */

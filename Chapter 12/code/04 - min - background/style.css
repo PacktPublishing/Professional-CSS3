@@ -1,0 +1,11 @@
+.element {
+  background-image: url(path_to_image.extension);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top left; }
+
+.element {
+  background: #000 url(path_to_image.extension) no-repeat fixed top left;
+}
+
+/*# sourceMappingURL=style.css.map */

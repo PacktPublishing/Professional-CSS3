@@ -1,0 +1,43 @@
+.grid-1of2 {
+    width: 50%;
+    background: blue;
+}
+
+.grid-1of4 {
+    width: 25%;
+    background: green;
+}
+
+.grid-2of4 {
+    width: 50%;
+}
+
+.grid-3of4 {
+    width: 75%;
+}
+
+.grid-1of5 {
+    width: 20%;
+}
+
+.grid-2of5 {
+    width: 40%;
+}
+
+.grid-3of5 {
+    width: 60%;
+}
+
+.grid-4of5 {
+    width: 80%;
+}
+
+[class^="grid"] {
+    float: left;
+}
+
+.grid-1of2, .grid-1of4, .grid-2of4, .grid-3of4, .grid-1of5, .grid-2of5, .grid-3of5, .grid-4of5 {
+    float: left;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,51 @@
+.container {
+    background: black;
+}
+
+.element {
+    width: 400px;
+    height: 400px;
+    background: red;
+}
+
+/* Changed */
+.container {
+    background: black;
+    height: 800px;
+}
+
+.element {
+    width: 400px;
+    height: 400px;
+    background: red;
+    margin: 0 auto;
+}
+
+/* Changed */
+.container {
+    position: relative;
+}
+
+.element {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 50%;
+    right: 50%;
+    margin-left: -50px;
+    margin-top: -50px;
+}
+
+/* Changed */
+.container {
+    position: relative;
+}
+
+.element {
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*# sourceMappingURL=style.css.map */

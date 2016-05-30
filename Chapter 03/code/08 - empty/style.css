@@ -1,0 +1,19 @@
+ul {
+    list-style: none;
+}
+
+.box {
+    background: white;
+    color: black;
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    float: left;
+}
+
+.box:empty {
+    color: black;
+    background: black;
+}
+
+/*# sourceMappingURL=style.css.map */

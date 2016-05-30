@@ -1,0 +1,12 @@
+.main-navigation ul {
+  list-style: none; }
+  .main-navigation ul:after {
+    content: " ";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both; }
+.main-navigation li {
+  float: left; }
+
+/*# sourceMappingURL=style.css.map */

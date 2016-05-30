@@ -1,0 +1,42 @@
+/* Aproach 1 */
+@media (max-width: 768px)
+  // Cover small devices
+  .element
+    font-size: 12px
+
+@media (min-width: 768px) and (max-width: 1024px)
+  // Cover medium devices
+  .element
+    font-size: 14px
+
+@media (min-width: 1024px)
+  // Cover large devices
+  .element
+    font-size: 16px
+
+
+/* Aproach 2 */
+@media only screen
+  .element
+    font-size: 16px
+@media only screen and (max-width: 640px)
+  // Cover small devices
+  .element
+    font-size: 12px
+
+@media only screen and (min-width: 641px)
+  // Cover devices which resolution is at minumum medium
+  .element
+    font-size: 14px
+
+@media only screen and (min-width: 641px) and (max-width: 1024px)
+  // Cover medium devices
+  .element
+    font-size: 15px
+
+@media only screen and (min-width: 1025px)
+  // Cover  devices which resolution is at minumum large
+  .element
+    font-size: 16px
+
+

@@ -1,0 +1,23 @@
+@mixin mq($display, $breakpoint)
+  @media #{$display} and #{$breakpoint}
+    @content
+
+$mq_small_only: "(max-width: 640px)"
+$mq_medium_only: "(min-width: 641px) and (max-width: 1024px)"
+$mq_small_and_medium: "(max-width: 1024px)"
+
++mq("screen", $mq_small_only)
+  .slider
+    width: 100%
+    height: 300px
+
++mq("screen", $mq_medium_only)
+  .slider
+    width: 100%
+    height: 400px
+
++mq("screen", $mq_small_and_medium)
+  .slider
+    max-width: 1200px
+    width: 100%
+

@@ -1,0 +1,52 @@
+.rectangle {
+  width: 100px;
+  height: 200px;
+  background: black; }
+
+.square {
+  width: 100px;
+  height: 100px;
+  background: black; }
+
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: black; }
+
+.ring {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 2px solid black;
+  background: none; }
+
+.triangle-up {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid black; }
+
+.triangle-down {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid black; }
+
+.triangle-left {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid black; }
+
+.triangle-right {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 10px solid black; }
+
+/*# sourceMappingURL=style.css.map */

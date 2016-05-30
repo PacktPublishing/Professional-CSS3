@@ -1,0 +1,13 @@
+p + a {
+    color: blue;
+}
+p > a {
+    color: red;
+}
+p ~ a {
+    color: pink;
+}
+
+input[type=”text”] {
+    background: #0000ff;
+}

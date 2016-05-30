@@ -1,0 +1,17 @@
+body {
+  padding-top: 100px;
+  background: red; }
+
+.fixed {
+  position: fixed;
+  text-align: center;
+  top: 0;
+  left: 0;
+  height: 100px;
+  width: 100%;
+  background: blue; }
+
+ul {
+  height: 2000px; }
+
+/*# sourceMappingURL=style.css.map */

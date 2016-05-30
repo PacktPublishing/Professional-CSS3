@@ -1,0 +1,8 @@
+@font-face {
+    font-family: font_name;
+    src: url(your_font.woff);
+}
+
+.classOfElement {
+    font-family: font_name;
+}

@@ -1,0 +1,29 @@
+article .h1, article .h2, article .h3,
+article .h2,
+article .h3 {
+  padding: 10px 0 15px 0;
+  line-height: 1.5;
+    line-height-color: black;
+  font-family: Arial; }
+article .h1, article .h2, article .h3 {
+  font-size: 36px; }
+article .h2 {
+  font-size: 30px; }
+article .h3 {
+  font-size: 24px;
+  font-family: Tahoma; }
+
+/* Changed */
+article .h1, article .h2, article .h3 {
+  padding: 10px 0 15px 0;
+  line-height: 1.5;
+  color: black;
+  font-family: Arial;
+  font-size: 36px; }
+article .h2 {
+  font-size: 30px; }
+article .h3 {
+  font-size: 24px;
+  font-family: Tahoma; }
+
+/*# sourceMappingURL=sassed.css.map */

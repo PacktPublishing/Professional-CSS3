@@ -1,0 +1,24 @@
+.button {
+  padding: 5px 10px;
+  display: inline-block;
+  background: #ff0000;
+  color: #fff; }
+
+.roundedButton {
+  background: black;
+  color: white;
+  border-color: red;
+  border-radius: 5px; }
+
+.button {
+  display: inline-block;
+  background: #ff0000;
+  color: #fff; }
+  .button .small {
+    padding: 5px 10px; }
+  .button .medium {
+    padding: 10px 20px; }
+  .button .large {
+    padding: 15px 30px; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,15 @@
+a {
+    border: 1px solid #000;
+}
+
+a:before {
+    content: "before";
+    color: orange;
+}
+
+a:after {
+    content: "after";
+    color: orange;
+}
+
+/*# sourceMappingURL=style.css.map */

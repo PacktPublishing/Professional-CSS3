@@ -1,0 +1,35 @@
+.flexContainer {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    height: 100%;
+    background: red;
+}
+
+.blue {
+    background: blue;
+}
+
+.green {
+    background: green;
+}
+
+.yellow {
+    background: yellow;
+}
+
+.h100px {
+    height: 100px;
+}
+
+.h200px {
+    height: 200px;
+}
+
+.h300px {
+    height: 300px;
+}
+
+/*# sourceMappingURL=style.css.map */

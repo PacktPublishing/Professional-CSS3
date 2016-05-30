@@ -1,0 +1,15 @@
+=clearfix
+  &:after
+    content: " "
+    visibility: hidden
+    display: block
+    height: 0
+    clear: both
+
+.main-navigation
+  ul
+    +clearfix /* This will prevent problems of cleared float */
+    list-style: none
+
+  li
+    float: left

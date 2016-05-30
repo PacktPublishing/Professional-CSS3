@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box; }
+
+article {
+  position: relative;
+  padding: 10px;
+    padding-left: 220px;
+  height: 220px;
+  background: red; }
+  article .image {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    background: #000;
+    width: 200px;
+    height: 200px; }
+  article .content {
+    width: 100%; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,12 @@
+p, span {
+  background: red;
+}
+p.width300, span.width300 {
+    width: 300px;
+}
+
+.dib {
+  display: inline-block;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,18 @@
+.element {
+    background-image: url(img/circle-blue.png);
+    background-repeat: no-repeat;
+    width: 45px;
+    height: 45px;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .element {
+        background-image: url(img/circle-blue@2x.png);
+        background-repeat: no-repeat;
+        background-size: 50% 50%;
+        width: 45px;
+        height: 45px;
+    }
+}
+
+/*# sourceMappingURL=style.css.map */

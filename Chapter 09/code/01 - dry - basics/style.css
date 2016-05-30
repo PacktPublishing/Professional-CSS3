@@ -1,0 +1,32 @@
+/* Text decoration */
+/* Text align */
+/* Text transform */
+/* Display */
+/* Margin 0 auto */
+/* Absolute center vertically and horizontally */
+.sampleClass {
+    text-transform: uppercase;
+}
+
+.sampleClass {
+    display: block;
+    text-align: center;
+}
+
+.clearfix:after {
+    content: " ";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+.cf:after, .element:after {
+    content: " ";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+/*# sourceMappingURL=style.css.map */

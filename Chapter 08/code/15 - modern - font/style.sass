@@ -1,0 +1,81 @@
+
+
+div[class^="gradient-"]
+  height: 200px
+  width: 200px
+  margin-bottom: 20px
+
+
+.gradient-01
+  background: linear-gradient(to bottom, #000 0%, #f00 100%)
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #000), color-stop(100%, #f00))
+  background: -moz-linear-gradient(top, #000 0%, #f00 100%)
+  background: -webkit-linear-gradient(top, #000 0%, #f00 100%)
+  background: -o-linear-gradient(top, #000 0%, #f00 100%)
+  background: -ms-linear-gradient(top, #000 0%, #f00 100%)
+  background: linear-gradient(to bottom, #000 0%, #f00 100%)
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#{#000}', endColorstr='#{#f00}',GradientType=0 )
+
+.gradient-02
+  background: -webkit-gradient(linear, left top, right top, from(#fff), to(#000))
+  background: -webkit-linear-gradient(left, #fff, #000)
+  background: -moz-linear-gradient(left, #fff, #000)
+  background: -ms-linear-gradient(left, #fff, #000)
+  background: -o-linear-gradient(left, #fff, #000)
+  background: linear-gradient(left, #fff, #000)
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#{#fff}', endColorStr='#{#000}', gradientType='1')
+
+.gradient-03
+  background: linear-gradient(to right, black, red, white)
+
+
+=radialGradient()
+  background: red
+  background: -webkit-radial-gradient(50% 50%, closest-side, red, black)
+  background: -o-radial-gradient(50% 50%, closest-side, red, black)
+  background: -moz-radial-gradient(50% 50%, closest-side, red, black)
+  background: radial-gradient(closest-side at 50% 50%, red, black)
+
+//
+.gradient-04
+  background: red
+  background: -webkit-radial-gradient(50% 50%, closest-side, red, black)
+  background: -o-radial-gradient(50% 50%, closest-side, red, black)
+  background: -moz-radial-gradient(50% 50%, closest-side, red, black)
+  background: radial-gradient(closest-side at 50% 50%, red, black)
+
+.gradient-05
+  background: red
+  background: -webkit-radial-gradient(10% 10%, closest-side, red, black)
+  background: -o-radial-gradient(10% 10%, closest-side, red, black)
+  background: -moz-radial-gradient(10% 10%, closest-side, red, black)
+  background: radial-gradient(closest-side at 10% 10%, red, black)
+
+.gradient-06
+  background: red
+  background: -webkit-radial-gradient(50% 10%, closest-side, red, black)
+  background: -o-radial-gradient(50% 10%, closest-side, red, black)
+  background: -moz-radial-gradient(50% 10%, closest-side, red, black)
+  background: radial-gradient(closest-side at 50% 10%, red, black)
+
+.gradient-07
+  background: red
+  background: -webkit-radial-gradient(50% 50%, closest-corner, red, black)
+  background: -o-radial-gradient(50% 50%, closest-corner, red, black)
+  background: -moz-radial-gradient(50% 50%, closest-corner, red, black)
+  background: radial-gradient(closest-corner at 50% 50%, red, black)
+
+.gradient-08
+  background: red
+  background: -webkit-radial-gradient(10% 10%, closest-corner, red, black)
+  background: -o-radial-gradient(10% 10%, closest-corner, red, black)
+  background: -moz-radial-gradient(10% 10%, closest-corner, red, black)
+  background: radial-gradient(closest-corner at 10% 10%, red, black)
+
+.gradient-09
+  background: red
+  background: -webkit-radial-gradient(50% 10%, closest-corner, red, black)
+  background: -o-radial-gradient(50% 10%, closest-corner, red, black)
+  background: -moz-radial-gradient(50% 10%, closest-corner, red, black)
+  background: radial-gradient(closest-corner at 50% 10%, red, black)
+
