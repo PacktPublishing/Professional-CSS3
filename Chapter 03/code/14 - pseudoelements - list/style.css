@@ -22,13 +22,13 @@ a:after {
     border-color: transparent transparent transparent #000;
 }
 
-p:first-letter {
+a:first-letter {
     color: orange;
     font-weight: bold;
     font-size: 20px;
 }
 
-p:first-line {
+a:first-line {
     color: pink;
 }
 
